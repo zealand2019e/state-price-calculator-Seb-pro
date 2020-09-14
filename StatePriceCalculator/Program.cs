@@ -1,4 +1,5 @@
 ﻿using System;
+using static StatePriceCalculator.Server;
 
 namespace StatePriceCalculator
 {
@@ -6,7 +7,7 @@ namespace StatePriceCalculator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+           Start();
         }
     }
 }
